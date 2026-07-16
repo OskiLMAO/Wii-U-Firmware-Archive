@@ -82,7 +82,7 @@ install ISFSHax on your console), use RedNAND._**
 
         [sys_mount]
         mlc=false
-        ```
+        
 Save the text file and eject your SD card.
 4. Installing and Booting the firmware.
         Insert the SD card into your Wii U. Turn on your Wii U and navigate to Backup and Restore. Choose Delete redNAND scfm.img. Go back and enter "Patch (sd) and boot redNAND" (one press with the power button). Now wait for the Power LED to stop Flashing. Your Wii U gamepad might turn on while it installs the titles. After the Wii U installs all titles (you can tell by the power LED not blinking), force power off your Wii U and power it back on. When youll boot redNAND again, you will be in Setup.
