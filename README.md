@@ -26,20 +26,20 @@ install ISFSHax on your console), use RedNAND._**
         Now if you use aroma, hold B while the gamepad is booting or when launching the H&S app.  
         A black and white menu should show up asking you to choose a payload, select fw_img_loader  
         If your console isnt modded, you can use the browser exploit.  
-        Open the Browser and go to "wiiuexploit.xyz", press on the "Run Exploit!" IMMEDIATELY hold B until you see the payload menu. Select fw_img_loader.  
+        Open the Browser and go to `wiiuexploit.xyz`, press on the `Run Exploit!` **IMMEDIATELY** hold B until you see the payload menu. Select `fw_img_loader`.  
         	**Note: minute only outputs 1080p through HDMI, no picture on the gamepad, and nothing on the analog outputs.**  
-        Some people reported that the screen output is not working for them when minute was loaded from the recovery_menu. If you made sure nothing else is the problem (right fw.img, TV supports 1080p HDMI), you can try following along blindly by pressing the appropriate buttons. Make sure to wait long enough between the presses, so the system has time to load. Without display output skip the first backup and go directly to Installing ISFShax.  
+        Some people reported that the screen output is not working for them when minute was loaded from the `recovery_menu`. If you made sure nothing else is the problem (right fw.img, TV supports 1080p HDMI), you can try following along blindly by pressing the appropriate buttons. Make sure to wait long enough between the presses, so the system has time to load. Without display output skip the first backup and go directly to Installing ISFShax.  
         If you already have an SLC backupm you can skip this.  
-        Navigate to Backup and Restore (9 presses with the Power Button, press the eject button)  
-        Press Dump SEEPROM & OTP (press the eject button, return to the menu with one press of either of the buttons)  
-        Dump SLC.RAW (3 presses with the Power button, press the eject button, this can take a hot minute so please wait patiently, press the power button)  
+        Navigate to `Backup and Restore` (9 presses with the Power Button, press the eject button)  
+        Press `Dump SEEPROM & OTP` (press the eject button, return to the menu with one press of either of the buttons)  
+        Dump `SLC.RAW` (3 presses with the Power button, press the eject button, this can take a hot minute so please wait patiently, press the power button)  
         Return to main menu (28 power button presses, eject)  
-        Choose Boot `ios.img` (6x Power, 1x Eject)  
+        Choose `Boot ios.img` (6x Power, 1x Eject)  
         Now the ISFShax installer should launch (this takes a few seconds)  
         Follow the Instructions on the screen, the buttons are the same as in minute. (3x Eject, 1x Power, 3x Eject)  
         The console should now turn off.  
         If the install was successful the Wii U should directly start into minute and the power LED on the console will be purple, once you turn it on.  
-        Dump the SLC.RAW again. This will overwrite the previous SLC.RAW file on the SD. This is required if you need to restore the SLC for unbricking, without loosing ISFShax. Keep that backup in a safe place.  
+        Dump the `SLC.RAW` again. This will overwrite the previous SLC.RAW file on the SD. This is required if you need to restore the SLC for unbricking, without loosing ISFShax. Keep that backup in a safe place.  
         If you skipped the first Backup also backup OTP and SEEPROM now.  
 
 **2. Setting up RedNAND**  
