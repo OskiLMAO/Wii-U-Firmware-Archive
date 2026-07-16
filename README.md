@@ -67,7 +67,8 @@ install ISFSHax on your console), use RedNAND._**
         Plug in your SD card into your Computer.
         Youll see one FAT32 partition and three Unknown partitions. The first(and the largest) partition will be MLC, format it as EXT4. Format the SLC(right under the MLC) as FAT16 with the LBA flag. Copy the ISFShax files back. Now make a folder called "wafel_install" on the FAT32 partition. and copy all the folders from the firmware archive you downloaded. Download this module https://github.com/StroopwafelCFW/wafel_setup_mlc/releases and put it in "/wiiu/ios_plugins/". Lastly, make a folder called "minute" on the root of your Wii U's SD card.
         Now make a text file called "rednand.ini", and paste this into the text file.
-        ```
+
+   ```
         [partitions]
         slccmpt=true
         slc=true
@@ -82,6 +83,6 @@ install ISFSHax on your console), use RedNAND._**
         [sys_mount]
         mlc=false
         ```
-    Save the text file and eject your SD card.
+Save the text file and eject your SD card.
 4. Installing and Booting the firmware.
         Insert the SD card into your Wii U. Turn on your Wii U and navigate to Backup and Restore. Choose Delete redNAND scfm.img. Go back and enter "Patch (sd) and boot redNAND" (one press with the power button). Now wait for the Power LED to stop Flashing. Your Wii U gamepad might turn on while it installs the titles. After the Wii U installs all titles (you can tell by the power LED not blinking), force power off your Wii U and power it back on. When youll boot redNAND again, you will be in Setup.
