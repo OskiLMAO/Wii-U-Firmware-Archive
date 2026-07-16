@@ -46,14 +46,14 @@ install ISFSHax on your console), use RedNAND._**
  THIS WILL ERASE EVERYTHING ON THE SD CARD  
         You'll need a 64GB or larger sd card for a 32GB model, you'll need a 16GB or larger sd card for a 8GB model.  
         Boot Minute Menu and proceed with these instructions:  
-        Navigate to Backup and Restore (9 presses with the Power Button, press the eject button)  
-        Choose the Format RedNAND option (10 presses with the Power Button, press the eject button)  
+        Navigate to `Backup and Restore` (9 presses with the Power Button, press the eject button)  
+        Choose the `Format RedNAND` option (10 presses with the Power Button, press the eject button)  
         Press eject, and then again. Then press Power. Now it'll start dumping the SLC and SLCCMPT.  
-        When it starts dumping the MLC, remove the sd card and force power off your Wii U. We are doing this because we want no data in the MLC partition.  
+        **When it starts dumping the MLC, remove the sd card and force power off your Wii U. We are doing this because we want no data in the MLC partition.**  
         Now open GParted (i assume you use Linux, ill add instructions for windows later TBD)  
         Plug in your SD card into your Computer.  
-        Youll see one FAT32 partition and three Unknown partitions. The first(and the largest) partition will be MLC, format it as EXT4. Format the SLC(right under the MLC) as FAT16 with the LBA flag.   	Copy the ISFShax files back. Now make a folder called "wafel_install" on the FAT32 partition. and copy all the folders from the firmware archive you downloaded.  
-	Download this module https://github.com/StroopwafelCFW/wafel_setup_mlc/releases and put it in "/wiiu/ios_plugins/". Lastly, make a folder called "minute" on the root of your Wii U's SD card.
+        Youll see one FAT32 partition and three Unknown partitions. The first(and the largest) partition will be MLC, format it as EXT4. Format the SLC(right under the MLC) as FAT16 with the LBA flag.   	Copy the ISFShax files back. Now make a folder called `wafel_install` on the FAT32 partition. and copy all the folders from the firmware archive you downloaded.  
+	Download [this module](https://github.com/StroopwafelCFW/wafel_setup_mlc/releases) and put it in `/wiiu/ios_plugins/`. Lastly, make a folder called `minute` on the root of your Wii U's SD card.
         Now make a text file called "rednand.ini", and paste this into the text file. Save the text file and eject your SD card.
 
 ```
@@ -76,6 +76,6 @@ mlc=false
 **3. Installing and Booting the firmware.**  
 Insert the SD card into your Wii U.  
 Turn on your Wii U and navigate to Backup and Restore.  
-Choose Delete redNAND scfm.img. Go back and enter "Patch (sd) and boot redNAND" (one press with the power button).  
+Choose Delete redNAND scfm.img. Go back and enter `Patch (sd) and boot redNAND` (one press with the power button).  
 Now wait for the Power LED to stop Flashing. Your Wii U gamepad might turn on while it installs the titles.  
 After the Wii U installs all titles (you can tell by the power LED not blinking), force power off your Wii U and power it back on. When youll boot redNAND again, you will be in Setup.
