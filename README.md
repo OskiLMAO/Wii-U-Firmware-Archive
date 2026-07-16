@@ -26,7 +26,8 @@ install ISFSHax on your console), use RedNAND._**
         Now if you use aroma, hold B while the gamepad is booting or when launching the H&S app.  
         A black and white menu should show up asking you to choose a payload, select fw_img_loader  
         If your console isnt modded, you can use the browser exploit.  
-        Open the Browser and go to `wiiuexploit.xyz`, press on the `Run Exploit!` **IMMEDIATELY** hold B until you see the payload menu. Select `fw_img_loader`.  
+        Open the Browser and go to `wiiuexploit.xyz`, press on the `Run Exploit!`   
+		**IMMEDIATELY** hold B until you see the payload menu. Select `fw_img_loader`.  
         	**Note: minute only outputs 1080p through HDMI, no picture on the gamepad, and nothing on the analog outputs.**  
         Some people reported that the screen output is not working for them when minute was loaded from the `recovery_menu`. If you made sure nothing else is the problem (right fw.img, TV supports 1080p HDMI), you can try following along blindly by pressing the appropriate buttons. Make sure to wait long enough between the presses, so the system has time to load. Without display output skip the first backup and go directly to Installing ISFShax.  
         If you already have an SLC backupm you can skip this.  
