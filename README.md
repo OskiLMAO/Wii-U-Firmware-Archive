@@ -11,6 +11,7 @@ Japanese firmware:
 
 US firmware:
 5.5.6U
+5.5.5U
 
 **I wanna thank [JeremKOYTB](https://github.com/JeremKOYTB/) for making an app that makes this project a bit more possible**
 
