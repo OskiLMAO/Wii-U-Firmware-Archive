@@ -12,6 +12,8 @@ Japanese firmware:
 US firmware:
 5.5.6U
 
+**I wanna thank [JeremKOYTB](https://github.com/JeremKOYTB/) for making an app that makes this project a bit more possible**
+
 # Instructions:
 **_I am not responsible for bricked Wii U's, dead SD cards, dead MLC's or SLC's. Please
 do some research if you have any concerns about doing this to your Wii U.
