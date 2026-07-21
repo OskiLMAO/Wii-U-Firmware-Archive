@@ -58,11 +58,11 @@ install ISFSHax on your console), use RedNAND._**
         Plug in your SD card into your Computer.  
         Youll see one FAT32 partition and three Unknown partitions. The first(and the largest) partition will be MLC, format it as EXT4. Format the SLC(right under the MLC) as FAT16 with the LBA flag.   	Copy the ISFShax files back. Now make a folder called `wafel_install` on the FAT32 partition. and copy all the folders from the firmware archive you downloaded.  
 	Download [this module](https://github.com/StroopwafelCFW/wafel_setup_mlc/releases) and put it in `/wiiu/ios_plugins/`. Lastly, make a folder called `minute` on the root of your Wii U's SD card.
-        Now make a text file called "rednand.ini", and paste this into the text file. Save the text file and eject your SD card.
+        Now make a text file called `rednand.ini`, and paste this into the text file. Save the text file and eject your SD card.
 
 ```
 [partitions]
-slccmpt=true
+slccmpt=false
 slc=true
 mlc=true
 [scfm]
